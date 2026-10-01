@@ -1,0 +1,11 @@
+{
+  "name": "wechat-codex",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local WeChat ClawBot to Codex Desktop conversation bridge",
+  "license": "MIT",
+  "engines": {"node": ">=24"},
+  "scripts": {"test": "node tests/check.mjs && node tests/package.mjs", "status": "node src/cli.mjs status"},
+  "dependencies": {"qrcode": "1.5.4"}
+}
