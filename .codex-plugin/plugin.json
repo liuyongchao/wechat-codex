@@ -1,0 +1,26 @@
+{
+  "name": "wechat-codex",
+  "version": "0.1.0",
+  "description": "Sync WeChat ClawBot with existing Codex Desktop conversations on macOS.",
+  "author": {
+    "name": "liuyongchao",
+    "url": "https://github.com/liuyongchao"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/liuyongchao/wechat-codex",
+  "repository": "https://github.com/liuyongchao/wechat-codex",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "WeChat Codex",
+    "shortDescription": "微信与 Codex 桌面双向同步",
+    "longDescription": "通过微信官方 ClawBot 通道继续本机 Codex 桌面会话。支持项目导航、历史会话切换、分段回复和输入状态。需要 macOS 桌面保持运行。",
+    "developerName": "liuyongchao",
+    "category": "Productivity",
+    "capabilities": [
+      "Instructions"
+    ],
+    "defaultPrompt": "帮我配置微信与 Codex 桌面的双向会话同步。",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg"
+  }
+}
